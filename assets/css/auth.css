@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+:root {
+    --paper: #fbf6ee;
+    --white: #fffdf9;
+    --rose: #c16b83;
+    --rose-dark: #a9516c;
+    --ink: #493c3b;
+    --muted: #8b7b76;
+    --border: #eadbd4;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background:
+        radial-gradient(ellipse at top left, #f4e0e5, transparent 50%),
+        var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+}
+
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 16px;
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 440px;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 22px;
+    padding: 38px;
+    box-shadow: 0 18px 55px rgba(73, 60, 59, 0.08);
+}
+
+.brand {
+    display: inline-block;
+    color: var(--rose);
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 32px;
+}
+
+.eyebrow {
+    color: var(--rose);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    margin: 12px 0;
+}
+
+.subtitle {
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 28px;
+}
+
+.form-label {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.form-control {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 14px;
+    background: #fff;
+}
+
+.form-control:focus {
+    border-color: var(--rose);
+    box-shadow: 0 0 0 3px rgba(193, 107, 131, 0.12);
+}
+
+.btn-memory {
+    background: var(--rose);
+    border: 1px solid var(--rose);
+    border-radius: 10px;
+    color: white;
+    padding: 12px;
+    font-weight: 600;
+}
+
+.btn-memory:hover {
+    background: var(--rose-dark);
+    color: white;
+}
+
+.auth-footer {
+    color: var(--muted);
+    font-size: 13px;
+    text-align: center;
+    margin: 24px 0 0;
+}
+
+.auth-footer a {
+    color: var(--rose-dark);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+    .auth-card {
+        padding: 26px 22px;
+    }
+
+    h1 {
+        font-size: 29px;
+    }
+}

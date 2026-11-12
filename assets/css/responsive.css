@@ -1,0 +1,82 @@
+@media (max-width: 991.98px) {
+    .hero-section {
+        padding: 65px 0;
+    }
+
+    .hero-description {
+        max-width: 600px;
+    }
+
+    .scrapbook-board {
+        max-width: 600px;
+        margin: 20px auto 0;
+    }
+
+    .navbar-nav {
+        padding-top: 15px;
+        align-items: flex-start !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .hero-section {
+        padding: 55px 0;
+    }
+
+    .hero-title {
+        font-size: 43px;
+    }
+
+    .scrapbook-board {
+        min-height: 360px;
+        border-radius: 100px 100px 20px 20px;
+    }
+
+    .polaroid {
+        width: 155px;
+        padding: 9px 9px 18px;
+    }
+
+    .polaroid-one {
+        left: 5%;
+        top: 70px;
+    }
+
+    .polaroid-two {
+        right: 4%;
+        top: 125px;
+    }
+
+    .photo-placeholder {
+        height: 155px;
+    }
+
+    .polaroid p {
+        font-size: 12px;
+    }
+
+    .date-note {
+        right: 5%;
+        bottom: 20px;
+        font-size: 10px;
+    }
+
+    .heart-one {
+        right: 5%;
+        top: 65px;
+    }
+
+    .heart-two {
+        left: 5%;
+        bottom: 45px;
+    }
+
+    .memories-section,
+    .quote-section {
+        padding: 65px 0;
+    }
+
+    .memory-card p {
+        min-height: 0;
+    }
+}
